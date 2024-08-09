@@ -1,0 +1,71 @@
+_XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+
+Xvnc TigerVNC 1.13.1 - built Aug 10 2023 01:23:35
+Copyright (C) 1999-2022 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101006
+
+
+Thu Nov  9 09:37:46 2023
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 16001
+ vncext:      created VNC server for screen 0
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+[mi] mieq: warning: overriding existing handler (nil) with 0x558c554cc010 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x558c554cc010 for event 3
+Failed to connect to bus: No medium found
+dbus-update-activation-environment: error: unable to connect to D-Bus: Using X11 for dbus-daemon autolaunch was disabled at compile time, set your DBUS_SESSION_BUS_ADDRESS instead
+xsettingsd: Loaded 5 settings from /home/.xsettingsd
+xsettingsd: Created window 0x600001 on screen 0 with timestamp 1677787214
+xsettingsd: Selection _XSETTINGS_S0 is owned by 0x0
+xsettingsd: Took ownership of selection _XSETTINGS_S0
+
+Thu Nov  9 09:37:49 2023
+ Connections: accepted: 127.0.0.1::42094
+ SConnection: Client needs protocol version 3.7
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian bgr888
+
+ERROR: openbox-xdg-autostart requires PyXDG to be installed
+
+Thu Nov  9 09:37:50 2023
+ ComparingUpdateTracker: 312.085 kpixels in / 261.021 kpixels out
+ ComparingUpdateTracker: (1:1.19563 ratio)
+
+Thu Nov  9 09:37:56 2023
+ VNCSConnST:  closing 127.0.0.1::42094: Clean disconnection
+ EncodeManager: Framebuffer updates: 38
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 134 rects, 1.61791 Mpixels
+ EncodeManager:            2.09375 KiB (1:3019.24 ratio)
+ EncodeManager:     Bitmap RLE: 18 rects, 28.547 kpixels
+ EncodeManager:                 618 B (1:185.12 ratio)
+ EncodeManager:     Indexed RLE: 129 rects, 200.069 kpixels
+ EncodeManager:                  13.5752 KiB (1:57.681 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 10 rects, 64.77 kpixels
+ EncodeManager:                  40.5957 KiB (1:6.23527 ratio)
+ EncodeManager:   Total: 291 rects, 1.9113 Mpixels
+ EncodeManager:          56.8682 KiB (1:131.346 ratio)
+ Connections: closed: 127.0.0.1::42094
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
