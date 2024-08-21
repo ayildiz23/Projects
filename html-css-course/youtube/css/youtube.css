@@ -1,4 +1,26 @@
 .thumbnail {
     width: 300px;
-    height: 300px;
+}
+
+.searchBar {
+    display: block;
+}
+
+.videoTitle {
+
+}
+
+.videoAuthor {
+
+}
+
+.videoStats {
+
+}
+
+.videoPreview {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
 }
